@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+.secao-topo {
+    width: 100%;
+    height: 770px;
+    font-size: 22px;
+    font-family: sans-serif;
+    background: #4710c1;
+    color: #fff;
+    padding: 20px 0;
+}
+.subsecao-topo {
+    width: 100%;
+}
+.subsecao-topo span {
+    margin: 0 30px;
+}
+.subsecao-topo a {
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    color: #4710c1;
+    font-size: 16px;
+    margin: 0 6px;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+.secao-topo img {
+    width: 100%;
+    margin: 20px auto auto 0;
+}
+.secao-sinopse h2 {
+    font-family: sans-serif;
+    margin: 80px auto auto 80px;
+    text-align: center;
+    max-width: 1200px;
+}
+.secao-sinopse p {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 25px auto;
+    max-width: 950px;
+    font-family: sans-serif;
+}
+.secao-disponibilidade {
+    margin: 0 auto;
+    text-align: center;
+}
+.secao-disponibilidade h2 {
+    font-family: sans-serif;
+    margin: 10px auto 10px auto;
+    text-align: center;
+}
+.secao-disponibilidade img {
+    margin: 30px auto;
+    width: 100%;
+    max-width: 950px;
+}
+.secao-disponibilidade p {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 auto;
+    max-width: 950px;
+    font-family: sans-serif;
+    text-align: left;
+}
+.secao-imagens {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin: 20px auto;
+    max-width: 950px;
+}
+.secao-imagens p {
+    margin: 15px auto;
+}
+.secao-imagens .imagens-serie {
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto 20px auto;
+}
+.secao-imagens img {
+    width: 315px;
+    margin: 10px;
+    box-shadow: 10px 10px 15px #939393
+}
+.secao-rodape {
+    font-family: sans-serif;
+    font-size: 16px;
+    width: 100%;
+    margin: 15px auto;
+}
+.secao-rodape .rodape-p {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.secao-rodape .rodape-final {
+    text-align: center;
+    margin: 10px auto;
+    background-color: #4710c1;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+    padding: 12px 0;
+}
